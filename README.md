@@ -1,6 +1,6 @@
 # Robinhood-DD
 
-Robinhood-DD is a Cursor Canvas dashboard for a company deep dive on Robinhood Markets (`HOOD`). It presents a scrollable, section-by-section investment research view covering company identity, product positioning, revenue growth, balance sheet strength, expected five-year return scenarios, profitability milestones, and long-term investment quality.
+Robinhood-DD is a Canvas dashboard for a company deep dive on Robinhood Markets (`HOOD`). It presents a scrollable, section-by-section investment research view covering company identity, product positioning, revenue growth, balance sheet strength, expected five-year return scenarios, profitability milestones, and long-term investment quality.
 
 The dashboard is implemented in [`company-deep-dive.canvas.tsx`](company-deep-dive.canvas.tsx). Almost everything shown on screen is derived from the `companyData` object near the top of that file, so the same dashboard template can be reused for another public company by replacing the company profile, financial metrics, chart data, scenario assumptions, and quality scores.
 
